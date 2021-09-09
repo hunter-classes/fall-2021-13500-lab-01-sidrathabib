@@ -21,12 +21,10 @@ int main()
 	std::cout << "Enter the second number: ";
 	std::cin >> num2;
 	
-	if (num1 < num2)
-	{
+	if (num1 < num2) {
 		std::cout << "The smaller of the two is " << num1;
 	}
-	else
-	{
+	else {
 		std::cout << "The smaller of the two is " << num2; 
 	}
 	
